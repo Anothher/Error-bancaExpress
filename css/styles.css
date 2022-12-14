@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+
+
+
+.padre1{
+
+    height: 98px;
+    border: 1px solid blue;
+    display: flex;
+}
+
+.boton1 {
+    margin-top: 24px;
+    left: 72px;
+    width: 108px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    border: 1px solid #04004B;
+    position: sticky;
+
+
+}
+
+.flecha {
+    
+    letter-spacing: 0px;
+    color: #191E26;
+    opacity: 1;
+
+
+}
+
+.textoBoton1 {
+
+    width: 48px;
+    height: 20px;
+    color: #04004B;
+    opacity: 1;
+    display: ;
+    flex-direction: row;
+}
+
+.boton2 {
+    margin-top: 24px;
+    left: 1108px;
+    width: 100px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    border: 1px solid #04004B;
+    position: sticky;
+}
+
+.textoBoton2 {
+
+}
+
+.padre2 {
+
+    border: 1px solid red;
+    width: 1280px;
+    height: 800px;
+    text-align: center;
+}
+
+.img1{
+    margin-top: 24px;
+}
+
+.texto1 {
+    font-size: 24px;
+    height: 24px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--black_-181e27_titulo-de-inputs);
+    text-align: center;
+    letter-spacing: 0px;
+    color: #181E27;
+    opacity: 1;
+}
+
+.texto2 {
+
+    top: 288px;
+    left: 322px;
+    width: 637px;
+    height: 40px;
+    margin-top: 24.14px;
+    margin-left: 322px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    letter-spacing: 0px;
+    color: #04004B;
+    opacity: 1;
+
+}
+
+.img2{
+    margin-top: 32px;
+    
+}
+.boton3 {
+    margin-top: 80px;
+    border-top: 80px;
+    width: 440px;
+    height: 48px;
+    background: var(--red_-ff453e) 0% 0% no-repeat padding-box;
+    background: #FF453E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 10px 20px #A801014D;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+.textoBoton3 {
+    
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+html{
+    background: var(--blue_-f5f7fb_fondos) 0% 0% no-repeat padding-box;
+    background: #F5F7FB 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+*{
+    font-family: sans-serif;
+}
+
+
