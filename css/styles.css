@@ -3,42 +3,40 @@
 
 
 .padre1{
-
+    
+    overflow: auto;
     height: 98px;
-    border: 1px solid blue;
-    display: flex;
 }
 
 .boton1 {
+
     margin-top: 24px;
     left: 72px;
     width: 108px;
     height: 48px;
-    background-color: white;
+    background-color: #F5F7FB;
     color: black;
-    border: 1px solid #04004B;
+    border: 1px solid #F5F7FB;
     position: sticky;
 
 
 }
 
 .flecha {
-    
-    letter-spacing: 0px;
-    color: #191E26;
+    top: 11px;
+    left: 17px;
+    position: absolute;
     opacity: 1;
-
-
 }
 
 .textoBoton1 {
-
+    top: 15px;
+    left: 42px;
     width: 48px;
     height: 20px;
     color: #04004B;
     opacity: 1;
-    display: ;
-    flex-direction: row;
+    position: absolute;
 }
 
 .boton2 {
@@ -46,19 +44,35 @@
     left: 1108px;
     width: 100px;
     height: 48px;
-    background-color: white;
+    background-color: #F5F7FB;
     color: black;
-    border: 1px solid #04004B;
-    position: sticky;
+    border: 1px solid #F5F7FB;
+    position: absolute;
+}
+
+.salir {
+    top: 11px;
+    left: 17px;
+    position: absolute;
+    opacity: 1;
 }
 
 .textoBoton2 {
-
+    top: 15px;
+    left: 49px;
+    width: 40px;
+    height: 20px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--blue_-04004b);
+    text-align: left;
+    letter-spacing: 0px;
+    color: #04004B;
+    opacity: 1;
+    position: absolute;
 }
 
 .padre2 {
 
-    border: 1px solid red;
     width: 1280px;
     height: 800px;
     text-align: center;
@@ -94,11 +108,52 @@
     opacity: 1;
 
 }
+.borde{
+    margin-top: 32px;
+    top: 448px;
+    left: 548px;
+    width: 184px;
+    height: 184px;    
+    border: 1px solid var(--red_-ff453e);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FF453E;
+    border-radius: 23px;
+    opacity: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .img2{
-    margin-top: 32px;
+    margin-top: 5px;
+    width: 160px;
+    height: 168px;
     
 }
+
+.caution{
+    width: 16px;
+    height: 16px;
+    top: 668px;
+    left: 536px;
+    position: absolute;
+
+}
+
+.error{
+    width: 192px;
+    height: 28px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: 532px;
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--red_-ff453e);
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: #FF453E;
+    opacity: 1;
+}
+
 .boton3 {
     margin-top: 80px;
     border-top: 80px;
